@@ -11,6 +11,9 @@ func main() {
 		m[i] = num * i
 		num++
 		fmt.Println(num)
+		if m[i] > 20 {
+			break
+		}
 	}
 	fmt.Println(m)
 }
