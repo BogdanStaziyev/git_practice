@@ -2,6 +2,14 @@ package main
 
 import "fmt"
 
+const con int = 10
+
 func main() {
-	fmt.Println("easy")
+	m := make([]int, con)
+	var num = 2
+	for i := 0; i < con; i++ {
+		m[i] = num * i
+		num++
+	}
+	fmt.Println(m)
 }
