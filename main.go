@@ -10,6 +10,7 @@ func main() {
 	for i := 0; i < con; i++ {
 		m[i] = num * i
 		num++
+		fmt.Println(num)
 	}
 	fmt.Println(m)
 }
